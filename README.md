@@ -1,42 +1,41 @@
 # Spotlight Notice Block
 
-Un blocco Moodle leggero e personalizzabile per visualizzare avvisi o notifiche con sfondo colorato.
+A lightweight and customizable Moodle block for displaying announcements or highlighted messages with a colored background.
 
-## Caratteristiche
+## Features
 
-* Titolo
-* Messaggio completamente configurabile tramite editor WYSIWYG (Atto/TinyMCE).
-* Scelta del colore di sfondo via campo di testo con help sui formati CSS.
-* Template Mustache per separare logica e presentazione.
-* Supporto agli standard di accessibilità (`<div>` con `aria-labelledby`).
-* Configurazione semplice e intuitiva.
+* Title
+* Fully configurable message using the WYSIWYG editor (Atto/TinyMCE)
+* Background color selection with help on CSS color formats
+* Mustache template to separate logic and presentation
+* Accessibility-friendly structure using `<div>` with `aria-labelledby`
+* Simple and intuitive configuration
 
-## Requisiti
+## Requirements
 
-* Moodle 3.9 o superiore
-* PHP 7.2 o superiore
+* Moodle 3.9 or higher
+* PHP 7.2 or higher
 
-## Installazione
+## Installation
 
-1. Copia la cartella `block_spotlight_notice` in `yourmoodle/blocks/`.
-2. Accedi a Moodle come amministratore.
-3. Vai su **Amministrazione del sito > Notifiche** per completare l'installazione.
-4. Aggiungi il blocco in qualsiasi pagina tramite **Aggiungi un blocco > Spotlight Notice**.
+1. Copy the `block_spotlight_notice` folder into `yourmoodle/blocks/`.
+2. Log in to Moodle as an administrator.
+3. Go to **Site administration > Notifications** to complete the installation.
+4. Add the block to any page using **Add a block > Spotlight Notice**.
 
-## Configurazione
+## Configuration
 
-1. Nella pagina dove aggiungi il blocco, clicca sulla rotellina di configurazione.
-2. Inserisci:
+1. On the page where the block is added, click the configuration gear icon.
+2. Fill in the following fields:
+   * **Notice title** – text shown as the header
+   * **Message** – HTML content using the built-in editor (bold, italic, links)
+   * **Background color** – CSS value such as `#bbcdea`, `red`, or `rgb(51,153,221)`
+3. Save and preview the block with the desired style.
 
-   * **Titolo dell'avviso**: testo da mostrare come intestazione.
-   * **Messaggio**: contenuto HTML tramite editor (grassetto, corsivo, link).
-   * **Colore di sfondo**: valore CSS (es. `#bbcdea`, `red`, `rgb(51,153,221)`).
-3. Salva e visualizza il blocco con il design desiderato.
+## Contributions
 
-## Contributi
+Feel free to open a pull request or submit an issue on the repository.
 
-Se desideri contribuire, apri una pull request o segnala issue sul repository.
+## License
 
-## Licenza
-
-Licenza MIT © Marco Traina
+MIT License © Marco Traina
