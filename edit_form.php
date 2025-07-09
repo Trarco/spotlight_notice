@@ -29,9 +29,9 @@ class block_spotlight_notice_edit_form extends block_edit_form
             get_string('form_message', 'block_spotlight_notice'),
             null,
             [
-                'maxfiles'    => 0,       // nessun file allegato
+                'maxfiles'    => 0,       
                 'maxbytes'    => 0,
-                'trusttext'   => true,    // permette HTML di base
+                'trusttext'   => true,    
                 'context'     => $this->block->context
             ]
         );

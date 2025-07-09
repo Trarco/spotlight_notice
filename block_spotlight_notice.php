@@ -22,7 +22,7 @@ class block_spotlight_notice extends block_base
 
         $this->content = new stdClass();
 
-        // Leggi titolo e messaggio dalla config (o usa i default del lang)
+        // Leggi titolo e messaggio dalla config
         $title   = $this->config->title     ?? get_string('notice_title',   'block_spotlight_notice');
 
         if (!empty($this->config->message) && is_array($this->config->message)) {
@@ -31,8 +31,7 @@ class block_spotlight_notice extends block_base
                 $this->config->message['format']
             );
         } else {
-            // default dal lang file
-            $message = get_string('notice_message', 'block_spotlight_notice');
+            $message = '';
         }
 
         $bgcolor = !empty($this->config->bgcolor) ? $this->config->bgcolor : '#bbcdea';
