@@ -1,3 +1,7 @@
+.block_spotlight_notice {
+  margin: 0;
+}
+
 .block_spotlight_notice .card-title {
     display: none;
 }
