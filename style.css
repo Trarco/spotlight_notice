@@ -1,0 +1,14 @@
+.block_spotlight_notice .card-title {
+    display: none;
+}
+
+.spotlight-notice{
+    padding: 2em;
+}
+
+.spotlight-notice-title {
+    color: var(--custom-primary-color);
+    font-weight: 700;
+    font-size: 2em;
+    text-transform: uppercase;
+}
