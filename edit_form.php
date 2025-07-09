@@ -50,7 +50,5 @@ class block_spotlight_notice_edit_form extends block_edit_form
         $mform->setDefault('config_bgcolor', '#bbcdea');
         $mform->addHelpButton('config_bgcolor', 'form_bgcolor_help', 'block_spotlight_notice');
 
-        // pulsanti Salva/Annulla
-        $this->add_action_buttons();
     }
 }
